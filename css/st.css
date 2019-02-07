@@ -1,0 +1,177 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+span p{
+  font-size: 11px;
+}
+.main-content {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+
+.features-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.features-content:before {
+  content: "";
+  width: 100%;
+  display: block;
+  border-top: 1px solid black;
+  margin-bottom: 40px;
+}
+
+.font-picture {
+  font-size: 30px;
+}
+.fonts{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.fonts i{
+  color:black;
+  background: #fcdb00;
+}
+.fonts i:hover{
+  color:red;
+}
+
+.form .error-message {
+  color: red;
+  display: none;
+}
+
+.form .email {
+  padding: 6px 12px;
+}
+
+.form .email:focus {
+  background: #fcdb00;
+}
+
+.form .email:invalid ~ .error-message {
+  display: block;
+}
+
+.form .form-button {
+  background: #fcdb00;
+  color: black !important;
+}
+
+.fab {
+  font-size: 30px;
+  color: #fcdb00;
+  margin-left: 10px;
+  background: black;
+}
+
+.fab:nth-child(1) {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 2000px){
+   .h-size{
+          height: 740px;
+          width: 100%;
+    }
+}
+@media screen and (max-width: 1200px){
+   .h-size{
+          height: 700px;
+          width: 100%;
+    }
+}
+@media screen and (max-width: 1050px){
+   .h-size{
+          height: 640px;
+          width: 100%;
+    }
+}
+@media screen and (max-width: 991px){
+   .h-size{
+          height: 1240px;
+          width: 100%;
+    }
+}
+@media screen and (max-width: 767px){
+   .h-size{
+          height: 1120px;
+          width: 100%;
+    }
+}
+@media screen and (max-width:540px){
+   .h-size{
+          height: 960px;
+          width: 100%;
+    }
+}
+@media screen and (max-width:360px){
+   .h-size{
+          height: 875px;
+          width: 100%;
+    }
+}
+
+.fab:hover {
+  font-size: 34px;
+}
+
+footer {
+  background: #010101;
+}
+
+.subcrible {
+  padding-bottom: 60px;
+  padding-top: 90px;
+}
+
+.subcrible .title h3 {
+  color: #fcdb00;
+}
+
+.subcrible .title p {
+  color: #717171;
+}
+
+.contacts {
+  margin-bottom: 10px;
+}
+
+.contacts a {
+  color: white;
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  font-style: italic;
+  font-size: 18px;
+  color: red;
+}
+
+.all-info {
+  padding-bottom: 50px;
+}
+
+header li > a {
+  font-size: 15px;
+  color: black;
+}
+
+.carousel-caption {
+  top: 0px;
+  left: 0px;
+  overflow: auto;
+}
+
+.block-in img {
+  width: 100%;
+}
+
+.tinyone-text p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
